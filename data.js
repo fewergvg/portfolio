@@ -9,7 +9,7 @@ const SITE = {
     eyebrow: "Portfolio · 2026",
     role: "FCMS Student · Club President",
     bio: "Nuttachai Keeratithon is an incoming Computer & Mathematical Sciences student at The Hong Kong Polytechnic University and a multi-award-winning robotics engineer, innovator, and AI researcher. Specializing in embedded systems, computer vision, and biomedical AI, he has earned top international and national honors across robotics, innovation, and research platforms.",
-    photo: "assets/id.jpg",     // leave "" to show initials instead
+    photo: "id.jpg",     // leave "" to show initials instead
     location: "Kowloon, Hong Kong",
     badges: ["Open to internships", "Available for collaboration"],
     contactNote: "Reach out for internships, team projects, or speaking invitations.",
@@ -63,7 +63,7 @@ const SITE = {
       location: "Bangkok",
       award: "World-Champion - MakeX Challenger (Senior)",
       featured: true,
-      image: "assets/work/MX.png",
+      image: "MX.png",
       summary: "Led team 'HelloWorld' to victory as World Champions competing against international teams from 8 countries.",
       description: [
         "I completed in the MakeX Robotics Competition: International Invitation Tournament (World Championship), organized by Imagineering MakeX Thailand in cooperation with the Faculty of Engineering, KMITL. As part of team 'HelloWorld,' we emerged as champions, competing against teams from eight countries, including Thailand, China-Taiwan, Mexico, the Philippines, UAE, Egypt, and India.",
@@ -87,7 +87,7 @@ const SITE = {
     "location": "New York, USA",
     "award": "Silver Medal (Science Project)",
     "featured": true,
-    "image": "assets/work/GO.png",
+    "image": "GO.png",
     "summary": "Awarded Silver Medal in the Science Project category at the international GENIUS Olympiad held at Rochester Institute of Technology.",
     "description": [
       "Presented research project at the international GENIUS Olympiad high school competition hosted by Rochester Institute of Technology (RIT).",
