@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portfolio</title>
+<meta name="description" content="Portfolio of achievements, competitions, projects and leadership roles." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="orbs" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#home"><span class="brand-mark">◆</span> <b id="brandName">Portfolio</b></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#work">Work</a>
+        <a href="#journey">Journey</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-tools">
+        <button class="icon-btn" id="themeBtn" title="Toggle theme" aria-label="Toggle theme">◑</button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow" id="heroEyebrow"></p>
+          <h1 id="heroName"></h1>
+          <p class="role" id="heroRole"></p>
+          <p class="lead" id="heroBio"></p>
+          <div class="hero-actions">
+            <a class="btn" href="#work">View Portfolio</a>
+            <a class="btn ghost" href="#contact">Get in Touch</a>
+          </div>
+          <ul class="badges" id="heroBadges"></ul>
+        </div>
+        <figure class="portrait reveal">
+          <div class="portrait-fallback" id="heroFallback" hidden aria-hidden="true"></div>
+          <img id="heroPhoto" alt="" />
+          <figcaption id="heroLocation"></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="section stats-section">
+      <div class="stats" id="stats"></div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <div class="section-head reveal">
+        <p class="kicker">Selected Records</p>
+        <h2 class="section-title">Achievements &amp; Projects</h2>
+        <p class="section-sub">Competitions, engineering projects, leadership positions and certifications.</p>
+      </div>
+      <div class="toolbar reveal">
+        <div class="chips" id="chips" role="tablist"></div>
+        <input class="search" id="search" type="search" placeholder="Search title, tag, organization…" aria-label="Search entries" />
+      </div>
+      <div class="grid" id="grid"></div>
+      <p class="empty" id="empty" hidden>No entries match your filter.</p>
+    </section>
+
+    <!-- TIMELINE -->
+    <section id="journey" class="section">
+      <div class="section-head reveal">
+        <p class="kicker">Chronology</p>
+        <h2 class="section-title">Journey</h2>
+      </div>
+      <ol class="timeline" id="timeline"></ol>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head reveal">
+        <p class="kicker">Capabilities</p>
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="skills" id="skills-list"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="contact-card reveal">
+        <h2 class="section-title">Let's work together</h2>
+        <p class="section-sub" id="contactNote"></p>
+        <div class="links" id="contactLinks"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> <span id="footName"></span>. Built as a static site.</p>
+  </footer>
+
+  <!-- NOTE: no [hidden] here on purpose — visibility is controlled by .open -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" data-close aria-label="Close">✕</button>
+      <div id="modalBody"></div>
+    </article>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
