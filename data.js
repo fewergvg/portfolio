@@ -4,7 +4,7 @@
    ========================================================= */
 const SITE = {
   profile: {
-    name: "Nuttachai Keeratithon",
+    name: "Nuttachai K.",
     shortName: "fewergvg",
     eyebrow: "Portfolio · 2026",
     role: "FCMS Student · fewergvg",
