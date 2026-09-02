@@ -7,7 +7,7 @@ const SITE = {
     name: "Nuttachai Keeratithon",
     shortName: "fewergvg",
     eyebrow: "Portfolio · 2026",
-    role: "FCMS Student · Club President",
+    role: "FCMS Student · fewergvg",
     bio: "Nuttachai Keeratithon is an incoming Computer & Mathematical Sciences student at The Hong Kong Polytechnic University and a multi-award-winning robotics engineer, innovator, and AI researcher. Specializing in embedded systems, computer vision, and biomedical AI, he has earned top international and national honors across robotics, innovation, and research platforms.",
     photo: "id.jpg",     // leave "" to show initials instead
     location: "Kowloon, Hong Kong",
@@ -107,7 +107,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Galactic Problem Solver Award",
     "featured": true,
-    "image": "assets/work/nasa-space-apps.png",
+    "image": "NS.png",
     "summary": "Received the Galactic Problem Solver Award for developing innovative solution addressing complex space challenges.",
     "description": [
       "Participated in the NASA International Space Apps Challenge hackathon solving real-world global and space problems.",
@@ -127,7 +127,7 @@ const SITE = {
     "location": "Online",
     "award": "Top 20 Finalist (Thailand)",
     "featured": false,
-    "image": "assets/work/kibo-rpc.png",
+    "image": "KB.png",
     "summary": "Programmed Astrobee autonomous robots inside the International Space Station (ISS) simulator, reaching Top 20 in Thailand.",
     "description": [
       "Designed and optimized autonomous navigation algorithms for JAXA's Astrobee robots operating in space environments.",
@@ -147,7 +147,7 @@ const SITE = {
     "location": "Chonburi, Thailand",
     "award": "Participant",
     "featured": false,
-    "image": "assets/work/school-satellite.png",
+    "image": "SS.png",
     "summary": "Designed and built a CanSat / Mini-Satellite prototype for atmospheric data collection and payload recovery.",
     "description": [
       "Participated in the national School Satellite competition organized by Geo-Informatics and Space Technology Development Agency (GISTDA).",
@@ -167,7 +167,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "National Finalist / Showcase",
     "featured": false,
-    "image": "assets/work/inewgen.png",
+    "image": "ING.png",
     "summary": "Showcased technology innovation at Thailand Inventor's Day organized by NRCT.",
     "description": [
       "Developed and submitted prototype technology for the Thailand Youth Innovation Award (I-New-Gen Award 2024).",
@@ -187,7 +187,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Co-Founder Leadership",
     "featured": true,
-    "image": "assets/work/actec.png",
+    "image": "AT.png",
     "summary": "Co-founded school tech club, managed mechanical/electronic divisions, and mentored junior members in robotics.",
     "description": [
       "Co-founded the ACT Technology Club (ACTEC) to foster student engagement in robotics, embedded systems, and maker projects.",
@@ -207,7 +207,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Certificate of Completion",
     "featured": false,
-    "image": "assets/work/ros-workshop.png",
+    "image": "RW.png",
     "summary": "Completed intensive technical training on ROS 2 middleware for advanced autonomous robotics application.",
     "description": [
       "Attended full-course technical workshop covering ROS 2 nodes, publisher-subscriber architectures, TF2 transforms, and Nav2 navigation stacks."
@@ -226,7 +226,7 @@ const SITE = {
     "location": "Online",
     "award": "Certificate of Completion",
     "featured": false,
-    "image": "assets/work/ai-builders.png",
+    "image": "AB.png",
     "summary": "Completed hands-on mentorship program in Machine Learning and Computer Vision models.",
     "description": [
       "Learned foundational machine learning methodologies, data pipeline design, and deep learning model training.",
@@ -246,7 +246,7 @@ const SITE = {
     "location": "Online",
     "award": "Certificate of Participation",
     "featured": false,
-    "image": "assets/work/samsung-sft.png",
+    "image": "sft.png",
     "summary": "Completed Design Thinking and STEM Innovation training under Samsung Solve for Tomorrow.",
     "description": [
       "Participated in workshops focused on applying STEM technology to solve community and social challenges."
@@ -265,7 +265,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Completed",
     "featured": false,
-    "image": "assets/work/ios-camp.png",
+    "image": "IC.png",
     "summary": "Gained experience in iOS app development using Swift and SwiftUI frameworks.",
     "description": [
       "Participated in hands-on application design training using Swift, SwiftUI, and Xcode development environment."
@@ -284,7 +284,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Bronze Medal (รางวัลเหรียญทองแดง)",
     "featured": false,
-    "image": "assets/work/steam4innovators.png",
+    "image": "S4.png",
     "summary": "Awarded Bronze Medal for presenting innovative project under the STEAM 4 Innovators program.",
     "description": [
       "Participated in the STEAM 4 Innovators project showcase organized by National Innovation Agency (NIA).",
@@ -304,7 +304,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Finalist",
     "featured": true,
-    "image": "assets/work/tia2024.png",
+    "image": "TIA.png",
     "summary": "Selected as a Finalist in the prestigious Thailand Innovation Award 2024 organized by NIA.",
     "description": [
       "Advanced to the final round of Thailand Innovation Award 2024 (TIA).",
@@ -324,7 +324,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Honorable Mention - Gold Level (รางวัลชมเชย ผลงานระดับทอง)",
     "featured": false,
-    "image": "assets/work/dru-competition.png",
+    "image": "DRU.png",
     "summary": "Achieved Gold-Level Honorable Mention award in university project contest.",
     "description": [
       "Submitted technical project to the research and project competition held by Dhonburi Rajabhat University.",
@@ -344,7 +344,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Gold Medal (เหรียญทอง)",
     "featured": true,
-    "image": "assets/work/teenovator.png",
+    "image": "TN.png",
     "summary": "Won the Gold Medal award in the Teenovator innovation competition organized by NIA.",
     "description": [
       "Developed and presented youth innovation project focused on technological solutions for real-world impact.",
@@ -364,7 +364,7 @@ const SITE = {
     "location": "Houston, Texas, USA",
     "award": "Selected Poster Presentation",
     "featured": true,
-    "image": "assets/work/aihc-houston.png",
+    "image": "AIHC.png",
     "summary": "Selected to present research poster at the AI in Health Conference 2024 hosted by Rice University in Houston.",
     "description": [
       "Selected to showcase research poster at the 2024 AI in Health Conference (AIHC) organized by The Ken Kennedy Institute at Rice University.",
@@ -384,7 +384,7 @@ const SITE = {
     "location": "Chonburi, Thailand",
     "award": "Published Paper & Selected Poster Presentation",
     "featured": true,
-    "image": "assets/work/ku-ic.png",
+    "image": "KU.png",
     "summary": "Selected for poster presentation and published research paper in international conference proceedings.",
     "description": [
       "Submitted peer-reviewed research paper to The 6th Kasetsart University Sriracha Campus International Conference (KU-IC).",
@@ -404,7 +404,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Certificate of Attendance",
     "featured": false,
-    "image": "assets/work/arduino-day.png",
+    "image": "AD.png",
     "summary": "Attended official Arduino Education Day workshop on modern embedded technologies and microcontrollers.",
     "description": [
       "Participated in hands-on technical sessions covering latest Arduino hardware boards, IoT systems, and educational tools."
@@ -423,7 +423,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Certificate of Participation",
     "featured": false,
-    "image": "assets/work/mut-robocup.png",
+    "image": "RBC.png",
     "summary": "Participated in rescue robotics challenge hosted by Mahanakorn University of Technology.",
     "description": [
       "Designed and operated rescue robot hardware to navigate terrain obstacles and complete task challenges under MUT RoboCup criteria."
@@ -442,7 +442,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Certificate of Participation",
     "featured": false,
-    "image": "assets/work/tpa-robot.png",
+    "image": "TPA.png",
     "summary": "Competed in official TPA Robot competition organized by Technology Promotion Association (Thailand-Japan).",
     "description": [
       "Engineered custom mobile robot mechanisms and control loops according to annual TPA competition rules."
@@ -461,7 +461,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Certificate of Participation",
     "featured": false,
-    "image": "assets/work/wro-thailand.png",
+    "image": "WRO.png",
     "summary": "Participated in World Robot Olympiad Thailand organized by Gammaco.",
     "description": [
       "Built and programmed autonomous robotic systems to perform specialized mission tasks under WRO game specifications."
@@ -480,7 +480,7 @@ const SITE = {
     "location": "Thailand",
     "award": "Completed Program",
     "featured": false,
-    "image": "assets/work/ac-space-camp.png",
+    "image": "AC.png",
     "summary": "Participated in immersive space technology and aerospace engineering program.",
     "description": [
       "Engaged in hands-on aerospace workshops, rocketry fundamentals, and satellite mission simulation activities."
@@ -499,7 +499,7 @@ const SITE = {
     "location": "Pathum Thani / Rayong, Thailand",
     "award": "Experience",
     "featured": false,
-    "image": "assets/work/nectec-smc.png",
+    "image": "NN.png",
     "summary": "Gained experience with national research labs and smart manufacturing centers under NECTEC, NSTDA, and SMC-PTT.",
     "description": [
       "Explored industrial automation, IoT sensor networks, and advanced research facilities under NECTEC NSTDA and Sustainable Manufacturing Center (SMC-PTT)."
@@ -518,7 +518,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Club Leadership",
     "featured": true,
-    "image": "assets/work/act-robot-club.png",
+    "image": "ARC.png",
     "summary": "Led the school robotics and technology club, managing engineering operations, workshops, and competition prep.",
     "description": [
       "Served as Club Leader for the ACT Robot Club / ACTEC, overseeing club development, student recruitment, and technical projects.",
@@ -539,7 +539,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Completed Program",
     "featured": false,
-    "image": "assets/work/larngear-23.png",
+    "image": "LG.png",
     "summary": "Participated in the 23rd Larngear Camp exploring various engineering disciplines and hands-on technology workshops.",
     "description": [
       "Selected to join Larngear Camp 23 organized by the Faculty of Engineering, Chulalongkorn University.",
@@ -559,7 +559,7 @@ const SITE = {
     "location": "Nakhon Pathom, Thailand",
     "award": "Certificate of Completion",
     "featured": false,
-    "image": "assets/work/mahidol-workshop.png",
+    "image": "MW.png",
     "summary": "Completed hands-on data analytics and programming workshop taught by Mahidol University faculty.",
     "description": [
       "Attended BigData and Computer Programming workshops organized by Mahidol University's Faculty of Science and Centre of Excellence in Mathematics.",
@@ -579,7 +579,7 @@ const SITE = {
     "location": "Pathum Thani, Thailand",
     "award": "Certificate of Completion",
     "featured": false,
-    "image": "assets/work/rsu-blender.png",
+    "image": "RSU.png",
     "summary": "Completed training in 3D modeling fundamentals using Blender under the RSU Rookie Game Dev Season 2 project.",
     "description": [
       "Participated in the game development training program organized by the College of Digital Innovation Technology, Rangsit University.",
@@ -599,7 +599,7 @@ const SITE = {
     "location": "Pathum Thani, Thailand",
     "award": "Certificate of Completion",
     "featured": false,
-    "image": "assets/work/rsu-csharp.png",
+    "image": "RSU.png",
     "summary": "Completed training in C# programming fundamentals for game development under the RSU Rookie Game Dev Season 2 project.",
     "description": [
       "Participated in the game development training program organized by the College of Digital Innovation Technology, Rangsit University.",
@@ -639,7 +639,7 @@ const SITE = {
     "location": "Bangkok, Thailand",
     "award": "Certificate of Appreciation",
     "featured": false,
-    "image": "assets/work/siriraj-hackathon.png",
+    "image": "SH.png",
     "summary": "Participated in the proposal submission round of Siriraj Hackathon 2023 focusing on healthcare innovation.",
     "description": [
       "Participated in the Siriraj Hackathon 2023 proposal submission round under the theme 'Leveraging Healthcare Innovation to Build a Better Well-Being Society'.",
