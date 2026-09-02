@@ -619,7 +619,7 @@ const SITE = {
     "location": "Online",
     "award": "Certificate of Participation",
     "featured": false,
-    "image": "assets/work/shopee-code-league.png",
+    "image": "SP.png",
     "summary": "Participated in the regional competitive programming competition organized by Shopee and Sea Group.",
     "description": [
       "Participated in Shopee Code League 2022 held from 14 March to 26 March 2022.",
